@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Jersey;
+    src: url('src/assets/fonts/Jersey10-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@theme{
+    --font-jersey: Jersey, sans-serif;
+    --font-montserrat: Montserrat, sans-serif;
+
+    --color-kuning: #F3E600;
+}
+

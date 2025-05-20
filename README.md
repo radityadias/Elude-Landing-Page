@@ -1,3 +1,7 @@
+# About This Repository
+
+This project is for our Final Project to create a landing page, in our case is game landing page.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
