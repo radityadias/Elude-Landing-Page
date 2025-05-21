@@ -37,7 +37,7 @@ function Navbar() {
                             </svg>
                         </button>
                     </div>
-                    <div className="items-center justify-between w-full hidden md:flex md:w-auto md:order-1"
+                    <div className="items-center justify-between md:justify-end w-full hidden md:flex md:w-auto md:order-1"
                          id="navbar-sticky">
                         <ul className="flex flex-col p-4 md:p-0 mt-4 md:space-x-9 lg:space-x-14 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 rounded-lg bg-[rgba(0,0,0,0.5)] md:bg-transparent">
                             {list_item.map((item, index) => (
