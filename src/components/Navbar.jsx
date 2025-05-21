@@ -1,9 +1,9 @@
 function Navbar() {
     const list_item = ["Home", "About", "Values", "Profile", "Other Project"]
     const social_item = [
-        {name: "Instagram", path: "instagram.svg"},
-        {name: "Facebook", path: "facebook.svg"},
-        {name: "Youtube", path: "youtube.svg"},
+        {name: "Instagram", path: "instagram.svg", link:"https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
+        {name: "Facebook", path: "facebook.svg", link: "https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
+        {name: "Youtube", path: "youtube.svg", link: "https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
     ]
 
     return (
@@ -20,7 +20,7 @@ function Navbar() {
                         <ul className=" flex-row px-4 py-2 text-kuning w-full space-x-4 hidden md:hidden lg:flex">
                             {social_item.map((item, index) => (
                                 <li key={index}>
-                                    <a href="#">
+                                    <a href={item.link}>
                                         <img src={`/icons/${item.path}`} alt={item.name.toLowerCase()} />
                                     </a>
                                 </li>
