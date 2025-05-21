@@ -7,6 +7,36 @@
     font-style: normal;
 }
 
+@keyframes slide-in-top{
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-bottom{
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-top{
+    animation: slide-in-top 0.7s ease-in-out;
+}
+
+.slide-in-bottom{
+    animation: slide-in-bottom 1s ease-in-out;
+}
+
 @theme{
     --font-jersey: Jersey, sans-serif;
     --font-montserrat: Montserrat, sans-serif;
