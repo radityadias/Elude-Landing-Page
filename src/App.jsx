@@ -6,14 +6,14 @@ import About from './components/About.jsx';
 function App() {
     return (
         <>
-            <section id="home" className="bg-[url('../../public/images/backgrounds/background_1.svg')] h-screen">
+            <section id="home" className="bg-[url('/images/backgrounds/background_1.svg')] h-screen">
                 <Navbar />
                 <Home />
             </section>
-            <section id="about" className="bg-[url('../../public/images/backgrounds/background_2.svg')] h-screen">
+            <section id="about" className="bg-[url('/images/backgrounds/background_2.svg')] h-screen">
                 <About />
             </section>
-            <section id="values" className="bg-[url('../../public/images/backgrounds/background_3.svg')] h-screen">
+            <section id="values" className="bg-[url('/images/backgrounds/background_3.svg')] h-screen">
                 <div className="h-screen flex items-center justify-center">
                     <div className="grid grid-cols-1 justify-center">
                         <div className="text-center slide-in-top">
