@@ -1,0 +1,11 @@
+.carousel-image-glow {
+    box-shadow:
+            0 0 15px 5px rgba(255, 255, 0, 0.7),   /* Yellow outer glow */
+            0 0 30px 10px rgba(255, 165, 0, 0.5);  /* Orange outer glow */
+
+    filter:
+            drop-shadow(0 0 8px rgba(255, 255, 0, 0.9))   /* Inner yellow glow */
+            drop-shadow(0 0 12px rgba(255, 165, 0, 0.7)); /* Inner orange glow */
+
+    border: 1px solid rgba(255, 255, 0, 0.3);  /* Yellow border */
+}
