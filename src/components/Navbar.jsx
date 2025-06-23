@@ -1,5 +1,5 @@
 function Navbar() {
-    const list_item = ["Home", "About", "Values", "Profile", "Other Project"]
+    const list_item = ["Home", "About", "Values", "Other Project"]
     const social_item = [
         {name: "Instagram", path: "instagram.svg", link:"https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
         {name: "Facebook", path: "facebook.svg", link: "https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
@@ -14,7 +14,7 @@ function Navbar() {
                     <a href="https://elude.my.id" className="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src="/elude_logo.svg" className="h-8" alt="Flowbite Logo"/>
                         <span
-                            className="self-center text-3xl whitespace-nowrap text-kuning font-jersey">Elude : The Nusantara</span>
+                            className="self-center text-xl md:text-3xl whitespace-nowrap text-kuning font-jersey ">Elude : The Nusantara</span>
                     </a>
                     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                         <ul className=" flex-row px-4 py-2 text-kuning w-full space-x-4 hidden md:hidden lg:flex">
