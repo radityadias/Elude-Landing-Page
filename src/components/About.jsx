@@ -11,33 +11,78 @@ function About() {
                             <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                                 {/* Item 1 */}
                                 <div className="hidden duration-700 ease-in-out ring" data-carousel-item="active">
-                                    <img src="/images/about.gif"
-                                         className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
-                                         alt="Game screenshot"/>
+                                    <video
+                                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        poster="/images/about.svg"
+                                    >
+                                        <source src="/images/about.webm" type="video/webm" />
+
+                                        Your browser does not support the video tag.
+                                    </video>
                                 </div>
                                 {/* Item 2 */}
                                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="/images/about.gif"
-                                         className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
-                                         alt="Game screenshot"/>
+                                    <video
+                                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        poster="/images/about.svg"
+                                    >
+                                        <source src="/images/about.webm" type="video/webm" />
+
+                                        Your browser does not support the video tag.
+                                    </video>
                                 </div>
                                 {/* Item 3 */}
                                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="/images/about.gif"
-                                         className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
-                                         alt="Game screenshot"/>
+                                    <video
+                                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        poster="/images/about.svg"
+                                    >
+                                        <source src="/images/about.webm" type="video/webm" />
+
+                                        Your browser does not support the video tag.
+                                    </video>
                                 </div>
                                 {/* Item 4 */}
                                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="/images/about.gif"
-                                         className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
-                                         alt="Game screenshot"/>
+                                    <video
+                                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        poster="/images/about.svg"
+                                    >
+                                        <source src="/images/about.webm" type="video/webm" />
+
+                                        Your browser does not support the video tag.
+                                    </video>
                                 </div>
                                 {/* Item 5 */}
                                 <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                                    <img src="/images/about.gif"
-                                         className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
-                                         alt="Game screenshot"/>
+                                    <video
+                                        className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 border-4 border-kuning rounded-lg"
+                                        autoPlay
+                                        loop
+                                        muted
+                                        playsInline
+                                        poster="/images/about.svg"
+                                    >
+                                        <source src="/images/about.webm" type="video/webm" />
+
+                                        Your browser does not support the video tag.
+                                    </video>
                                 </div>
                             </div>
 

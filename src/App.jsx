@@ -25,9 +25,20 @@ function App() {
         <>
             <section
                 id="home"
-                className="h-fit md:h-screen bg-no-repeat bg-cover bg-[url('/images/backgrounds/background_1.gif')]"
-                // No opacity on the section itself, so background is always visible
+                className="h-fit md:h-screen bg-no-repeat bg-cover"
             >
+                <video
+                    className="absolute inset-0 w-full h-full object-cover -z-10"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    poster="/images/backgrounds/background_2.svg"
+                >
+                    <source src="/images/backgrounds/background_1.webm" type="video/webm" />
+
+                    Your browser does not support the video tag.
+                </video>
                 <div
                     ref={homeRef} // Attach the ref to the content wrapper
                     className={`mx-10 transition-opacity duration-1000 ${isHomeVisible ? 'opacity-100' : 'opacity-0'}`}
