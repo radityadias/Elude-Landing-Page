@@ -1,11 +1,17 @@
 function Navbar() {
-    const list_item = ["Home", "About", "Values", "Other Project"]
+    const list_item = ["Home", "About", "Values", "Footer"]
     const social_item = [
         {name: "Instagram", path: "instagram.svg", link:"https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
         {name: "Facebook", path: "facebook.svg", link: "https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
         {name: "Youtube", path: "youtube.svg", link: "https://youtu.be/dQw4w9WgXcQ?si=od3Ev2IXCX9bhKMl"},
     ]
 
+    const handleScroll = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <>
             <nav
@@ -41,10 +47,15 @@ function Navbar() {
                          id="navbar-sticky">
                         <ul className="flex flex-col p-4 md:p-0 mt-4 md:space-x-9 lg:space-x-14 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 rounded-lg bg-[rgba(0,0,0,0.5)] md:bg-transparent">
                             {list_item.map((item, index) => (
-                                 <li key={index}>
-                                    <a href="#"
-                                       className="block py-2 px-3 text-kuning md:p-0 font-jersey text-xl"
-                                       aria-current="page">{item}
+                                <li key={index}>
+                                    <a
+                                        href={`#${item.toLowerCase()}`} // Use lowercase for IDs
+                                        className="block py-2 px-3 text-kuning md:p-0 font-jersey text-xl"
+                                        onClick={(e) => {
+                                            e.preventDefault(); // Prevent default anchor jump
+                                            handleScroll(item.toLowerCase()); // Scroll to section
+                                        }}
+                                        aria-current="page">{item}
                                     </a>
                                 </li>
                             ))}

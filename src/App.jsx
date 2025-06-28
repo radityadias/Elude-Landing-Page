@@ -25,13 +25,12 @@ function App() {
                     <Values/>
                 </div>
             </section>
-            <section id="Footer" className="h-full bg-cover bg-[#711C91]">
+            <section id="footer" className="h-full bg-cover bg-[#711C91]">
                 <div className="bg-no-repeat md:bg-repeat bg-[url('/images/backgrounds/footer.svg')]">
                     <div className="mx-10">
                         <Footer/>
                     </div>
                 </div>
-
             </section>
 
         </>
