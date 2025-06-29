@@ -22,10 +22,10 @@ function Home() {
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-start">
-                    <button type="button" className="py-2.5 px-2 mb-2 mt-5 border font-jersey text-xl text-kuning border-kuning bg-[#331A3D] flex items-center justify-center gap-2">
+                    <a href="https://senryou.itch.io/elude-the-nusantara" type="button" className="py-2.5 px-2 mb-2 mt-5 border font-jersey text-xl text-kuning border-kuning bg-[#331A3D] flex items-center justify-center gap-2">
                         <img src="/icons/itch.svg" alt="itch.io"/>
                         Visit Itch.io
-                    </button>
+                    </a>
                 </div>
             </div>
         </>
